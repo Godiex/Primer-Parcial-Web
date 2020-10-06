@@ -1,5 +1,5 @@
 export class AyudaHumanitaria {
     modalidad :string;
-    fecha : Date;
+    fecha : Date = new Date();
     valorApoyo : number;
 }

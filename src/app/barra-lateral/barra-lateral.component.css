@@ -25,7 +25,7 @@
     height: 200px;
     background: #0278ae;
     user-select: none;
-    /*background-image: url('../../assets/logoWeb.png');*/
+    background-image: url('../../assets/ayuda.png');
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -77,6 +77,7 @@
   }
   
   label #cancel {
+    top: 0; position: fixed;
     background: #FFFF;
     z-index: 1111;
     left: -195px;

@@ -7,5 +7,5 @@ export class Persona {
     sexo : string;
     edad : number;
     ciudad : string;
-    ayudaHumanitaria : AyudaHumanitaria;
+    ayudaHumanitaria : AyudaHumanitaria = new AyudaHumanitaria();
 }

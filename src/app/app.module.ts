@@ -7,6 +7,7 @@ import { BarraLateralComponent } from './barra-lateral/barra-lateral.component';
 import { BarraSuperiorComponent } from './barra-superior/barra-superior.component';
 import { RegistroComponent } from './registro/registro.component';
 import { HomeComponent } from './home/home.component';
+import { ConsultaComponent } from './consulta/consulta.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     BarraLateralComponent,
     BarraSuperiorComponent,
     RegistroComponent,
-    HomeComponent
+    HomeComponent,
+    ConsultaComponent
   ],
   imports: [
     BrowserModule,
